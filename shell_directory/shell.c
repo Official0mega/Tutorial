@@ -1,7 +1,6 @@
 #include "official0mega.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 int main(int ac, char **argv)
 {
@@ -31,7 +30,6 @@ int main(int ac, char **argv)
 
 		/* Freeing up allocated Memory */
 		free(lineptr);
-		continue;
 	}
 
 	return (0);
